@@ -42,7 +42,6 @@ public class MainPageSite extends BasePage {
 
     //Methods
     public void checkLookupField() {
-        otherBox.
         lookupButton.click();
         fieldLookup.sendKeys("testtesttest____test___test");
         screenshot.capturePageScreenshot("text.png");

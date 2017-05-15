@@ -244,7 +244,7 @@ public class WebDriverFactory {
      */
     private static void setChromeDriver() {
         String os = System.getProperty("os.name").toLowerCase().substring(0, 3);
-        String chromeBinary = "/Users/yuriyborzak/Desktop/framework/BPM/src/main/resources/chromeDriver/chromedriver"
+        String chromeBinary = "/Users/yuriyborzak/Desktop/QA/automationtesting/automationTestingFrameworks/BPM/src/main/resources/chromeDriver/chromedriver"
                 + (os.equals("win") ? ".exe" : "");
         System.setProperty("webdriver.chrome.driver", chromeBinary);
     }
